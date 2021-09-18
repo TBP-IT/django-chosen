@@ -17,8 +17,12 @@ The recommended way to install from source is with pip:
         // Original repository only for Python 2 versions
         pip install -e "git+https://github.com/theatlantic/django-chosen.git#egg=django-chosen"
 
-        // This repository compatible with Python 3
+        // The orignal repository compatible with Python 3
         pip install git+https://github.com/Jeanluis019/django-chosen
+        // or (recommended)
+        pip install git+https://github.com/TBP-IT/django-chosen
+        
+These only work with Python 2 and old Django:
 If the source is already checked out, use setuptools:
 
         python setup.py develop
