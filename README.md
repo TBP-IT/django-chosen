@@ -23,6 +23,7 @@ The recommended way to install from source is with pip:
         pip install git+https://github.com/TBP-IT/django-chosen
         
 These only work with Python 2 and old Django:
+
 If the source is already checked out, use setuptools:
 
         python setup.py develop
